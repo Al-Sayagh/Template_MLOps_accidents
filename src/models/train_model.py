@@ -15,7 +15,7 @@ y_train = np.ravel(y_train)
 y_test = np.ravel(y_test)
 
 rf_classifier = ensemble.RandomForestClassifier(
-    n_estimators=100,
+    n_estimators=150,
     criterion="gini",
     n_jobs=-1
 )
